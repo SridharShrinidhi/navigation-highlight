@@ -78,13 +78,12 @@ h2 {
 
 main {
   margin: 0;
-  padding: .2em .5em .3em;
+  padding: 0 10px;
   text-align: left;
 }
 
 main p {
   font-family: Georgia, serif;
-  line-height: 1.4;
 }
 
 p b {
