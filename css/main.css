@@ -1,0 +1,95 @@
+html {
+  box-sizing: border-box;
+  background-color: #fff;
+  line-height: 1.5;
+  text-align: center;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0 0 .4em;
+  padding: 0 10px;
+  font-family: "Sigmar One", cursive;
+  font-size: 3rem;
+  color: #b20953;
+}
+
+.nav .current {
+  background-color: #b20953;
+  color: #fff;
+}
+
+img {
+  display: block;
+  width: 100%;
+  background-color: #2f2d13;
+  margin: 0 0 .2em;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  background-color: #ffe500;
+  font-family: "Sigmar One", cursive;
+}
+
+.nav ul {
+  margin: 0 0 .2em;
+  padding: 0 0 .4em;
+}
+
+.nav li {
+  display: inline-block;
+
+  list-style-type: none;
+  background-color: #b2a212;
+  border-radius: 4px;
+}
+
+.nav a {
+  display: inline-block;
+  font-size: 1.125rem;
+  padding: .2em .5em .3em;
+  border-radius: 4px;
+  list-style-type: none;
+  text-decoration: none;
+  color: #fff;
+  font-family: Georgia, serif;
+}
+
+a:hover {
+  background-color: #cc1465;
+  color: #fff;
+}
+
+h2 {
+  font-family: "Sigmar One", cursive;
+  text-align: left;
+  color: #cc1465;
+  font-size: 1.875rem;
+}
+
+main {
+  padding: 0 10px;
+  text-align: left;
+}
+
+main p {
+  font-family: Georgia, serif;
+}
+
+footer {
+  margin: 0;
+  background-color: #ffe500;
+  font-family: Georgia, serif;
+  padding: 10px;
+  font-size: .75rem;
+  text-align: center;
+}
