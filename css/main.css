@@ -1,8 +1,8 @@
 html {
   box-sizing: border-box;
   background-color: #fff;
-  line-height: 1.5;
   text-align: center;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -48,7 +48,6 @@ img {
 
 .nav li {
   display: inline-block;
-
   list-style-type: none;
   background-color: #b2a212;
   border-radius: 4px;
@@ -78,25 +77,32 @@ h2 {
 }
 
 main {
-  margin: 0 .3em;
-  padding: 0 10px;
+  margin: 0;
+  padding: .2em .5em .3em;
   text-align: left;
 }
 
 main p {
   font-family: Georgia, serif;
+  line-height: 1.4;
 }
 
 p b {
   font-family: Georgia, serif;
-  font-weight: bolder;
+  font-weight: 900;
+  font-size: 1.125rem;
 }
 
 footer {
   margin: 0;
   background-color: #ffe500;
   font-family: Georgia, serif;
+  padding: .2em .5em .3em;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
   padding: 10px;
   font-size: .75rem;
-  text-align: center;
 }
